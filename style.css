@@ -62,12 +62,15 @@ body{
     justify-content: flex-end;
 }
 .col-8{
+    display: block;  
     width: 50%;
 }
 .col-9{
+    display: block;
     width: 33.33%;
 }
 .col-10{
+    display: block;
     width: 33.33%;
 }
 .col-11{
@@ -200,6 +203,53 @@ body{
 }
 .col-17{
     width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-8a{
+    display: inline-flex;
+    width: 60%;
+}
+.col-8b{
+    display: inline-flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-8c{
+    display: inline-flex;
+    width: 33.33%;
+}
+.col-8d{
+    display: inline-flex;
+    width: 33.33%;
+}
+.col-8e{
+    display: inline-flex;
+    width: 33.33%;
+}
+.col-8f{
+    display: inline-flex;
+    min-height: auto;
+    min-width: auto;
+}
+.col-9a{
+    display: inline-flex;
+    width: 60%;
+}
+.col-9b{
+    display: inline-flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-10a{
+    display: inline-flex;
+    width: 60%;
+}
+.col-10b{
+    display: inline-flex;
+    width: 40%;
     justify-content: flex-end;
     align-items: center;
 }
