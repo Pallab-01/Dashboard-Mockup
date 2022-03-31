@@ -19,7 +19,7 @@ body{
     padding-right: 14px;
 }
 .row1 a{
-    color: rgb(37, 36, 36);
+    color: rgb(53, 53, 53);
 }
 .row1 a:hover{
     background-color: rgba(115, 131, 173, 0.63);
@@ -74,15 +74,19 @@ body{
     width: 33.33%;
 }
 .col-11{
+    display: block;
     width: 50%;
 }
 .col-12{
+    display: block;
     width: 33.33%;
 }
 .col-13{
+    display: block;
     width: 33.33%;
 }
 .col-14{
+    display: block;
     width: 100%;
 }
 .card{
@@ -162,8 +166,9 @@ body{
     border: 1px solid black;
 }
 #btn4{
+    color: grey;
     margin-right: 20px;
-    border: 1px;
+    border: 1px solid;
     border-radius: 30px;
     background-color: #fff;
     padding: 12px;
@@ -176,8 +181,9 @@ body{
     cursor: pointer;
 }
 #btn5{
+    color: grey;
     margin-right: 20px;
-    border: 1px;
+    border: 1px solid;
     border-radius: 48px;
     background-color: #fff;
     padding: 12px;
@@ -189,8 +195,9 @@ body{
     cursor: pointer;
 }
 #btn6{
+    color: grey;
     margin-right: 20px;
-    border: 1px;
+    border: 1px solid;
     border-radius: 26px;
     background-color: #fff;
     padding: 12px;
@@ -207,24 +214,29 @@ body{
     align-items: center;
 }
 .col-8a{
+    color: grey;
     display: inline-flex;
     width: 60%;
 }
 .col-8b{
+    color: grey;
     display: inline-flex;
     width: 40%;
     justify-content: flex-end;
     align-items: center;
 }
 .col-8c{
+    color:rgba(66, 66, 153, 0.863);
     display: inline-flex;
     width: 33.33%;
 }
 .col-8d{
+    color: rgba(168, 77, 77, 0.877);
     display: inline-flex;
     width: 33.33%;
 }
 .col-8e{
+    color: green;
     display: inline-flex;
     width: 33.33%;
 }
@@ -234,10 +246,12 @@ body{
     min-width: auto;
 }
 .col-9a{
+    color: grey;
     display: inline-flex;
     width: 60%;
 }
 .col-9b{
+    color: grey;
     display: inline-flex;
     width: 40%;
     justify-content: flex-end;
@@ -248,10 +262,64 @@ body{
     width: 60%;
 }
 .col-10b{
+    color: grey;
     display: inline-flex;
     width: 40%;
     justify-content: flex-end;
     align-items: center;
+}
+.col-11a{
+    color: grey;
+    display: inline-flex;
+    width: 80%;
+}
+.col-11b{
+    color: grey;
+    display: inline-flex;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-12a{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+.col-13a{
+    color: grey;
+    display: inline-flex;
+    width: 80%;
+}
+.col-13b{
+    color: grey;
+    display: inline-flex;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col-14a{
+    color: grey;
+    display: inline-flex;
+    width: 40%;
+}
+.col-14b{
+    display: inline-flex;
+    width: 40%;
+    align-items: center;
+}
+.col-14c{
+    color: grey;
+    display: inline-flex;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#btn7{
+    color: rgb(122, 120, 120);
+    border: 1px solid;
+    border-radius: 26px;
+    background-color: #fff;
+    padding: 12px;
 }
 
   
