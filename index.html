@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link rel="stylesheet" href="utilities.css" class="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dashboard</title>
     <style>
@@ -23,7 +24,7 @@
             </div>
             <div class="row">
                 <div class="col-2">
-                    <h2>Robert Niro</h2>
+                    <h2>&copy;Robert Niro</h2>
                 </div>
             </div>
             <div class="row1">
@@ -51,11 +52,32 @@
                 <div class="col-4">Back to Slide ID Manager <span>&#8594</span></div>
             </div>
             <div class="row">
-                <div class="col-5">Checkboxes</div>
-                <div class="col-6">Buttons</div>
-            </div>
+                <div class="col-5">
+                    <form action="/action_page.php">
+                        <label class="chk1">
+                            <input type="checkbox" value="employee1"> All Technician
+                        </label>
+                        <label class="chk2">
+                            <input type="checkbox" value="employee2"> All Scientist
+                        </label>
+                        <label class="chk3">
+                            <input type="checkbox" value="employee3"> All Pathologist
+                        </label>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <button id="btn1">Week</button>
+                    <button id="btn2">Month</button>
+                    <button id="btn3">Custom</button>
+                </div>
+            </div><br>
             <div class="row">
-                <div class="col-7">Show Weekends</div>
+                <div class="col-7">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
             <div class="row">
                 <div class="col-8 card">Card 1</div>
@@ -69,12 +91,19 @@
             </div>
             <div class="row">
                 <div class="col-14 card">Card 7</div>
-            </div>
+            </div><br>
             <div class="row">
-                <div class="col-15">Buttons</div>
+                <div class="col-15">
+                    <button id="btn4">DOWNLOAD CSV</button>
+                    <button id="btn5">DOWNLOAD PRINT</button>
+                    <button id="btn6">PRINT</button>
+                </div>
                 <div class="col-16">
                     <h3>View Audit Log <span>&#8594</span></h3>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-17"><p>Slides Deleted: 5,442</p></div>
             </div>
         </div>
     </div>
